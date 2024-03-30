@@ -5,7 +5,7 @@ function Navbar() {
     const navigate=useNavigate();
     const handleSignout=()=>{
         localStorage.removeItem('token')
-        navigate('/login')
+        navigate('/')
     }
   return (
     <div className='nav-bar'>
