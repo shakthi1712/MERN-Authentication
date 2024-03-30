@@ -17,7 +17,7 @@ function Navbar() {
                 </>
             ):(
                       <>
-                       <Link className='link-text' to='/login'>LOGIN</Link>
+                       <Link className='link-text' to='/'>LOGIN</Link>
                        <Link className='link-text' to='/signup'>REGISTER</Link>
                       </>
             )}

@@ -23,7 +23,7 @@ function SignUp() {
             setUsername('')
             setPassword('') 
             fetchUser()
-            navigate('/login')
+            navigate('/')
 
         })
 

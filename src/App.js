@@ -1,6 +1,5 @@
 import './App.css';
 import {Routes,Route} from 'react-router-dom';
-import Home from './pages/Home';
 import Navbar from './components/Navbar';
 import Login from './pages/Login';
 import SignUp from './pages/SignUp';
@@ -11,8 +10,7 @@ function App() {
     <div className="App">
       <Navbar />
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/login' element={<Login />} />
+          <Route path='/' element={<Login />} />
           <Route path='/signUp' element={<SignUp />} />
           {isUserSignedIn && <Route path='/account' element={<Account />} />}
         </Routes>
